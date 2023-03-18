@@ -1,0 +1,192 @@
+body {
+  background-image: url(images/bgym2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.fa-location-dot {
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.secondnav {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.secondnav:hover {
+  color: yellow;
+}
+
+.secondnav:active {
+  color: yellow;
+}
+
+.paragraph {
+  width: 100%;
+  font-size: 500%;
+  margin-top: 100px;
+}
+
+.start {
+  margin-left: 46%;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+
+  /* Copy from the internet*/
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.start:hover {
+  background-image: linear-gradient(to right, #009245, #790606);
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+
+.start:focus {
+  outline: none;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.welcomeTag {
+  font-size: 70px;
+  margin-left: 44%;
+  margin-top: 37%;
+}
+
+.welcomeParagraph {
+  text-align: center;
+}
+
+.workout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coachesTag {
+  font-size: 70px;
+  margin-left: 44%;
+  margin-top: 70px;
+}
+
+.fitness0 {
+  width: 380px;
+}
+
+.fitness1 {
+  width: 380px;
+}
+
+.fitness2 {
+  width: 380px;
+}
+
+.fitness3 {
+  width: 380px;
+}
+
+.imgCoaches {
+  position: absolute;
+  margin-left: 170px;
+}
+
+/* .ryan {
+  margin-left: 50px;
+  border: 1px solid white;
+  width: 300px;
+} */
+
+.textryan {
+  font-family: "Times New Roman", Times, serif;
+  color: lightgray;
+  font-size: 18px;
+}
+
+/* .emily {
+  margin-left: 350px;
+  margin-top: -409px;
+  border: 1px solid white;
+  width: 250px;
+} */
+
+.textemily {
+  font-family: "Times New Roman", Times, serif;
+  color: lightgray;
+  font-size: 19px;
+}
+
+/* .samantha {
+  margin-left: 650px;
+  margin-top: -445px;
+  border: 1px solid white;
+  width: 250px;
+} */
+
+.textsamantha {
+  font-family: "Times New Roman", Times, serif;
+  color: lightgray;
+  font-size: 19px;
+}
+
+/* .austin {
+  margin-left: 950px;
+  margin-top: -470px;
+  border: 1px solid white;
+  width: 300px;
+} */
+
+.textaustin {
+  font-family: "Times New Roman", Times, serif;
+  color: lightgray;
+  font-size: 19px;
+}

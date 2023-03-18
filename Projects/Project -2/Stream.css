@@ -1,0 +1,247 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  max-width: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo {
+  width: 70px;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: #222;
+}
+
+hr {
+  color: gray;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  padding: 10px;
+}
+
+i {
+  padding-top: 0px;
+  padding-right: 10px;
+}
+
+.fa-magnifying-glass {
+  margin-left: 350px;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.srch {
+  width: 300px;
+  height: 50px;
+  border: none;
+  position: absolute;
+  border-radius: 55px;
+  margin-left: 3px;
+  background-color: #222;
+  color: white;
+}
+
+.startstream {
+  position: absolute;
+  background-color: #222;
+  margin-left: 80%;
+  margin-top: -30px;
+  color: white;
+  border: 1px solid #222;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.pic {
+  position: absolute;
+  margin-left: 95.5%;
+  margin-top: -30.5px;
+  color: white;
+  width: 60px;
+  height: 60px;
+}
+
+.notif {
+  position: absolute;
+  margin-left: 93%;
+  margin-top: -20px;
+  background: none;
+  color: #222;
+  border: none;
+  font-size: 25px;
+}
+
+.add {
+  position: absolute;
+  margin-left: 90%;
+  margin-top: -20px;
+  background: none;
+  color: #222;
+  border: none;
+  font-size: 25px;
+}
+
+.simple1 {
+  position: relative;
+  width: 100vh;
+  border-radius: 50px;
+  left: 373px;
+  top: 70px;
+}
+
+.twizzy {
+  position: absolute;
+  width: 500px;
+  height: 340px;
+  top: 110px;
+  left: 1350px;
+  color: white;
+  background-color: rgb(26, 25, 25);
+  border-radius: 50px;
+}
+
+.userstream {
+  padding: 30px;
+  border-radius: 30px;
+  width: 80px;
+}
+
+h4 {
+  display: inline-block;
+  position: relative;
+  top: -90px;
+  left: -15px;
+}
+
+.count {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+
+.followers {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+  color: gray;
+}
+
+.strbtn {
+  position: absolute;
+  top: 40px;
+  left: 360px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(77, 77, 252);
+  border: none;
+  font-size: 15px;
+}
+
+.picofstreames {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.slide {
+  position: absolute;
+  display: flex;
+  border-radius: 30px;
+  overflow-x: auto;
+  width: 300px;
+  height: 150px;
+  top: 250px;
+  left: 1450px;
+}
+
+.streams {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.bnevsfaze {
+  position: relative;
+  top: 100px;
+  left: 370px;
+  color: white;
+}
+
+.bne {
+  position: relative;
+  width: 50vh;
+  border-radius: 50px;
+}
+
+.user {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.test {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  padding-left: 20px;
+}
+
+.channel {
+  font-size: 11px;
+  color: gray;
+}
+
+.views {
+  font-size: 11px;
+  color: gray;
+}
+
+.overwatchstream {
+  position: relative;
+  top: 100px;
+  left: 370px;
+  padding-left: 20px;
+  color: white;
+}
+
+.overwatch {
+  position: relative;
+  width: 49vh;
+  border-radius: 50px;
+}
+
+.spidermanmiles {
+  position: relative;
+  top: 100px;
+  left: 370px;
+  padding-left: 20px;
+  color: white;
+}
+
+.spiderman {
+  position: relative;
+  width: 49vh;
+  border-radius: 50px;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */ ;
